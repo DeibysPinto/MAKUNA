@@ -1,0 +1,57 @@
+/* Colors */
+
+$logo:invert(63%) sepia(93%) saturate(309%) hue-rotate(5deg) brightness(91%) contrast(95%);
+$header_icons:invert(100%) sepia(0%) saturate(0%) hue-rotate(353deg) brightness(102%) contrast(105%);
+$makuna_footer:invert(63%) sepia(93%) saturate(309%) hue-rotate(5deg) brightness(91%) contrast(95%);
+$btn_colormode:rgb(26, 25, 25);
+$btn_bgmode:rgb(212, 212, 208);
+$navbar_bg:rgb(26, 25, 25);
+$navbar_txt:rgb(219, 221, 223);
+$nv_hover:rgba(217, 172, 58, 0.808);
+$nv_border:rgb(219, 221, 223);
+$footer_bg:rgb(26, 25, 25);
+$footer_h2:rgb(211, 185, 119);
+$footer_a:rgb(174, 176, 177);
+$footer_ahover:rgb(219, 221, 223);
+$footer_span:rgb(219, 221, 223);
+$bienvenido_bg:rgb(232, 248, 246);
+$bienvenido_h2:rgb(53, 94, 73);
+$bienvenido_p:rgb(5, 43, 23);
+$index_bg:rgb(36, 36, 36);
+$map_h2:rgb(211, 185, 119);
+$map_color:rgb(187, 187, 212);
+$map_border:rgb(53, 94, 73);
+$map_hover:rgb(53, 94, 73);
+
+/* White theme color */
+
+$WTH_logo:invert(4%) sepia(9%) saturate(1002%) hue-rotate(2deg) brightness(99%) contrast(92%);
+$WTH_header_icons:invert(4%) sepia(9%) saturate(1002%) hue-rotate(2deg) brightness(99%) contrast(92%);
+$WTH_btn_colormode:rgb(144, 205, 200);
+$WTH_btn_bgmode:rgb(26, 25, 25);
+$WTH_navbar_bg:rgb(144, 205, 200);
+$WTH_navbar_txt:rgb(26, 25, 25);
+$WTH_nv_hover:rgb(26, 25, 25);
+$WTH_nv_border:rgb(26, 25, 25);
+$WTH_footer_bg:rgb(5, 86, 95);
+$WTH_footer_h2:rgb(172, 136, 46);
+$WTH_footer_a:rgb(174, 176, 177);
+$WTH_footer_ahover:rgb(219, 221, 223);
+$WTH_footer_span:rgb(219, 221, 223);
+$WTH_bienvenido_bg:rgb(245, 245, 245);
+$WTH_bienvenido_h2:rgb(14, 87, 48);
+$WTH_bienvenido_p:rgb(5, 43, 23);
+$WTH_index_bg:rgb(36, 36, 36);
+$WTH_map_h2:rgb(192, 156, 66);
+$WTH_map_color:rgb(187, 187, 212);
+$WTH_map_border:rgb(53, 94, 73);
+$WTH_map_hover:rgb(53, 94, 73);
+
+/* Backgrounds */
+
+$bienvenido_img:url(../image/nativo.jpg);
+$mapa_bg:url(../image/fondomapa.png);
+$WTH_mapa_bg: url(../image/fondoagua.png);
+
+/* MediaQuery */
+
