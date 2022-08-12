@@ -1,11 +1,23 @@
 //swich white mode
 
 const whitem = document.querySelector("#whitem");
-const body = document.querySelector("body");
-const header = document.querySelector("header")
-const footer = document.querySelector("footer")
-whitem.addEventListener("click", a => {
-    body.classList.toggle("whitemode");
-    header.classList.toggle("whitemode");
-    footer.classList.toggle("whitemode")
+whitem.addEventListener("click", () => {
+  document.body.classList.toggle("whitemode");
+  whitem.classList.toggle("active");
+
+  //storage
+
+  if (document.body.classList.contains("whitemode")) {
+    localStorage.setItem("white", "true");
+  } else {
+    localStorage.setItem("white", "false");
+  }
 });
+
+if (localStorage.getItem("white") === "true") {
+  document.body.classList.add("whitemode");
+  whitem.classList.add("active");
+} else {
+  document.body.classList.remove("whitemode");
+  whitem.classList.remove("active");
+}
