@@ -68,22 +68,17 @@ header {
         width: 25px;
         height: 25px;
         border-radius: 50%;
-        transition: 0.3s; }
+        transition: 0.4s; }
       .logo-swich label .check::after {
         content: "";
         position: absolute;
         top: 3px;
         right: 3px;
-        background-color: #90cdc8;
+        background-color: #d4d4d0;
         width: 25px;
         height: 25px;
         border-radius: 50%;
-        transition: 0.3s;
-        transform: translateX(50px); }
-    .logo-swich label input[type="checkbox"]:checked ~ .check:before {
-      transform: translateX(-50px); }
-    .logo-swich label input[type="checkbox"]:checked ~ .check:after {
-      transform: translateX(0px); }
+        transition: 0.4s; }
   .logo-swich img {
     width: 150px;
     padding: 20px;

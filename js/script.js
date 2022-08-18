@@ -21,3 +21,4 @@ if (localStorage.getItem("white") === "true") {
   document.body.classList.remove("whitemode");
   whitem.classList.remove("active");
 }
+
