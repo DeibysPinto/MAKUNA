@@ -68,7 +68,7 @@ header {
         width: 25px;
         height: 25px;
         border-radius: 50%;
-        transition: 0.4s; }
+        transition: 0.2s; }
       .logo-swich label .check::after {
         content: "";
         position: absolute;
@@ -78,7 +78,7 @@ header {
         width: 25px;
         height: 25px;
         border-radius: 50%;
-        transition: 0.4s; }
+        transition: 0.2s; }
   .logo-swich img {
     width: 150px;
     padding: 20px;
