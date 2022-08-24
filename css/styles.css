@@ -229,6 +229,11 @@ span {
       .fondoindex2 .colombiamap path:hover {
         fill: #355e49; }
 
+.usercont {
+  background-color: blue;
+  height: auto;
+  width: 300px; }
+
 .whitemode {
   transition: 0.2s; }
   .whitemode header {
